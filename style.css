@@ -27,31 +27,15 @@ input{
     border-style: dashed;
 }
 
-input:focus{
-    border-color: rgb(226, 20, 37);
-    border-width: 6px;
-}
 
-input:valid{
-    border-color: rgb(52, 241, 14);
-    border-width: 6px;
-    border-style: solid;
-}
 
-p::first-line{
-    color: tomato;
-    font-weight: bold;  
-}
 
-p::first-letter{
-    color: rgb(243, 11, 69);
-    font-weight: bold;  
-    font-size: 200%;
-}
+@media screen and (max-width:510px){
+   div{
+       display: block;
+       margin: 10px;
+   }
 
-p::selection{
-   background-color: rgb(243, 35, 198);
-    color: aliceblue; 
 }
 
 
