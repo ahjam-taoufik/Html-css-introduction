@@ -1,21 +1,108 @@
-span{
-   /* display:block ; */
-   /* display: inline-block; */
-   margin: 20px;
-   padding: 20px;
-  
+
+/* ================Part 1 ====================== */
+/* .error{
+    color: rgb(255, 75, 75);
+} */
+
+/* .success{
+    color: rgb(9, 212, 111);
+} */
+
+/* p.success{
+    color: rgb(9, 212, 111);
+} */
+/* 
+h4.success{
+    color: rgb(35, 119, 77);
+} */
 
 
-}
+/* p.error.feedback{
+    border: dashed;
+    border-width: 4px;
+} */
+
+/* .feedback{
+    border: dashed;
+    border-width: 4px;
+} */
+
+
+/* .error.feedback{
+    border: dashed;
+    border-width: 4px;
+} */
+
+/* h4.error.feedback{
+    border: dashed;
+    border-width: 4px;
+} */
+
+/* body{
+    background-color: rgb(236, 236, 250);
+    margin: 30px;
+    padding: 10px;
+} */
+
+/* 
+div p{
+    color: hotpink;
+} */
+
+/* div p.error{
+    color: red;
+} */
+/* 
+a{
+    background-color: lightcoral; 
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+} */
+
+/* a[href="https://wwww.google.com"]{
+    color: yellow;
+} */
+
+
+/* contains */
+/* a[href*="google"]{
+    color: rgb(21, 255, 0);
+} */
+
+
+/* end with */
+/* a[href$="com"]{
+    color: rgb(83, 80, 233);
+    text-transform: uppercase;
+} */
+
+/* ================Part 2 inheritance ====================== */
 
 div{
-    /* display: inline; */
-    border: 2px solid crimson;
-    border-radius: 10px;
-    margin: 80px ;
-    padding: 40px;
-    
+    color: tomato;
+    font-weight: bold;
+    border: 1px solid gray;
+    margin: 40px;
   
-    
 
 }
+
+p{
+    border: inherit;
+    margin: inherit;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
