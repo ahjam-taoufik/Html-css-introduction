@@ -1,26 +1,21 @@
-h1{
-    color: orange;
-    background-color: bisque;
-    text-decoration:underline;
-    font-size: 40px;
-    font-family:'Courier New';
-    text-align:center ;
-}
+span{
+   /* display:block ; */
+   /* display: inline-block; */
+   margin: 20px;
+   padding: 20px;
+  
 
-p{
-    color: brown;
-    line-height: 30px;
-    letter-spacing: 2px;
-    column-count: 2;
-    /* column-gap: 200px; */
-}
-
-ul{
-    /* border-width: 10px;
-    border-style:solid;
-    border-color: chartreuse; */
-    border: 10px solid crimson;
 
 }
 
+div{
+    /* display: inline; */
+    border: 2px solid crimson;
+    border-radius: 10px;
+    margin: 80px ;
+    padding: 40px;
+    
+  
+    
 
+}
