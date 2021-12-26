@@ -1,0 +1,26 @@
+h1{
+    color: orange;
+    background-color: bisque;
+    text-decoration:underline;
+    font-size: 40px;
+    font-family:'Courier New';
+    text-align:center ;
+}
+
+p{
+    color: brown;
+    line-height: 30px;
+    letter-spacing: 2px;
+    column-count: 2;
+    /* column-gap: 200px; */
+}
+
+ul{
+    /* border-width: 10px;
+    border-style:solid;
+    border-color: chartreuse; */
+    border: 10px solid crimson;
+
+}
+
+
