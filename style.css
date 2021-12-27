@@ -1,29 +1,21 @@
-/*
-  Flexible Box
-  For Parent
-  - display: flex => To Start Flexible Box
-  - flex-direction: row => Default Value
-  - flex-wrap: nowrap => Default Value
-  - flex-flow: [Flex-Direction] + [Flex-Wrap]
-*/
 
-  .flex {
-    background-color: #eee;
-    width: 600px;
-    padding: 20px;
+
+.parent{
     margin: 20px auto;
-    display: flex;
-    /*flex-wrap: wrap; /* by default */
-    /* flex-direction:row; */
-    /* flex-direction:row-reverse; */
-    /* flex-direction:column; */
-    /* flex-direction:column-reverse; */
+    width: 400px;
+    height: 200px;
+    background-color: rgb(241, 157, 157);
+    display: grid;
+    grid-template-columns:  100px 150px 100px 50px ;
+    /* grid-template-columns:  25% 25% auto 1fr; */
+    /* grid-template-columns: repeat(2, auto) repeat(2, 1fr); */
 }
-.flex div {
-    background-color: #f00;
-    margin: 1px;
-    color: white;
-    width: 25%;
-    text-align: center;
-    padding: 20px;
-  }
+
+.parent div {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
