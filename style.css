@@ -1,27 +1,10 @@
-/*
-  transform-origin
-  Syntax
-  Default Values => 50% 50% 0
-  2D Transform => transform-origin(X, Y)
-  3D Transform => transform-origin(X, Y, Z)
-  X-Axis
-  - CSS Unit [px, em, rem]
-  - %
-  - Keyword
-  -- Left = 0%
-  -- Center = 50%
-  -- Right = 100%
-  Y-Axis
-  - CSS Unit [px, em, rem]
-  - %
-  - Keyword
-  -- Top = 0%
-  -- Center = 50%
-  -- Bottom = 100%
-*/
-
-
-div {
+.shape {
+    perspective: 300px;
+    /* perspective-origin: left top; */
+    perspective-origin: 50% 10%;
+    /* perspective-origin: center center; */
+  }
+  .shape div {
     margin: 200px auto;
     width: 200px;
     height: 200px;
@@ -32,31 +15,8 @@ div {
     align-items: center;
     font-weight: bold;
     font-size: 30px;
-    /* transform: rotateX(360deg); */
-    /* transform: rotateY(360deg); */
-    /* transform: rotateZ(360deg); */
-     transform: rotate3d(0,0, 0, 0deg); 
-     transition: 1s;
+    transform: translate(100px, -100px);
+    transform: translateX(100px);
+    transform: translateZ(100px);
+    transform: translate3d(0, 0, 100px);
   }
-
-
-
-*{
-    /* box-sizing: border-box; */
-    margin:0 ;
-}
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.shape{
-    position: inherit;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    width: 200px;
-    height: 200px;
-    background-color: #eee;
-}
