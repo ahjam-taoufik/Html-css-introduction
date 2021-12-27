@@ -1,44 +1,29 @@
-body{
-   margin: 80px;
+/*
+  Flexible Box
+  For Parent
+  - display: flex => To Start Flexible Box
+  - flex-direction: row => Default Value
+  - flex-wrap: nowrap => Default Value
+  - flex-flow: [Flex-Direction] + [Flex-Wrap]
+*/
 
+  .flex {
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    /*flex-wrap: wrap; /* by default */
+    /* flex-direction:row; */
+    /* flex-direction:row-reverse; */
+    /* flex-direction:column; */
+    /* flex-direction:column-reverse; */
 }
-
-div{
-    display: inline;
-    border: 2px solid tomato;
-    padding: 10px;
-    border-radius: 10px;
-    margin-right: 10px;
-    
-}
-
-div:hover{
-    background-color: tomato;
+.flex div {
+    background-color: #f00;
+    margin: 1px;
     color: white;
-    font-weight: bold;
-}
-
-
-input{
-    margin: 50px;
-    border-radius: 10px;
-    height: 30px;
-    border-width: 3px;
-    border-style: dashed;
-}
-
-
-
-
-@media screen and (max-width:510px){
-   div{
-       display: block;
-       margin: 10px;
-   }
-
-}
-
-
-
-
-
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+  }
