@@ -1,5 +1,7 @@
-
-  div {
+/*
+  matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+*/
+div {
     margin: 200px auto;
     width: 200px;
     height: 200px;
@@ -10,9 +12,8 @@
     align-items: center;
     font-weight: bold;
     font-size: 30px;
-    /* transform: skewX(10deg); */
-    /* transform: skewX(-10deg); */
-    /* transform: skewY(10deg); */
-    /* transform: skewY(-10deg); */
-    transform: skew(10deg, 10deg);
+    transform: matrix(1.2, 0.2679, 0, 1.2, 20, 20);
+    transform: translateX(20px) translateY(20px) scaleX(1.2) skewY(15deg) skewX(0deg) scaleY(1.2);
   }
+
+  
