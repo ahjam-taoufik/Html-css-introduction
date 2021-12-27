@@ -1,17 +1,3 @@
-div.cl1 {
-    margin: 200px auto;
-    width: 200px;
-    height: 200px;
-    background-color: rgb(255 0 0 / 39%);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 30px;
-    transform: translate(-100px, -100px);
-  }
-
 
   div {
     margin: 200px auto;
@@ -24,4 +10,9 @@ div.cl1 {
     align-items: center;
     font-weight: bold;
     font-size: 30px;
+    /* transform: skewX(10deg); */
+    /* transform: skewX(-10deg); */
+    /* transform: skewY(10deg); */
+    /* transform: skewY(-10deg); */
+    transform: skew(10deg, 10deg);
   }
