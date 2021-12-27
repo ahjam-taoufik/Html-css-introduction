@@ -1,32 +1,17 @@
-/*
-  Grid
-  Parent
-  - display: grid | inline-grid
-  - grid-template-columns: [Number Of Columns In] => [Px, %, Auto, Fraction, Repeat, Mix]
-  - grid-template-rows: [Number Of Rows In] => [Px, %, Auto, Fraction, Repeat, Mix]
-  - gap: [Row Gap] [Column Gap]
-  - justify-content
-  - align-content
-  - grid-template-areas
-  Child
-  - grid-column: [Grid-Column-Start] [Grid-Column-End]
-  - grid-row: [Grid-Row-Start] [Grid-Row-End]
-*/
-
 * {
-    box-sizing: border-box;
+    margin: 0;
   }
   .parent {
     margin: 20px auto;
-    width: 800px;
     height: 500px;
     background-color: #ddd;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, auto);
-    gap: 10px 10px; /* spassing rows and columns */
+    /* grid-template-columns: repeat(4,200px); */
+    /* grid-template-columns: repeat(auto-fill,200px); */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
   .parent div {
+    margin: 1px;
     background-color: red;
     color: white;
     padding: 20px;
